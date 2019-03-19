@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box; 
+}
+
+body, html {
+    font-size: 16px; 
+    color: rgb(0, 0, 0, .87); 
+    font-family: "Montserrat", sans-serif; 
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.6; /* hauteur de ligne par rapport a font size, j'ai fait 30px/16px*/
+    
+}
+
+.topbar {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    z-index: 3;
+    box-shadow: 0 4px 30px rgb(0, 0, 0, .05);
+}
+
+.topbar nav {
+    float: left;
+}
+
+.topbar nav a {
+    color: #9F9F9F;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 53px;
+    line-height: 23px;
+
+}
+
+/*lorsqu'on passe sur mes lien il y a cette couleur*/
+.topbar nav a:hover, .topbar nav a.active {
+    color: black; 
+}
+
+.social {
+    float: right;
+    
+}
+
+.social a {
+    padding: 0 12px ; 
+    opacity: .5;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+.banniere {
+    height: 427px;
+    background: no-repeat center center / cover url("../img/banner.jpg");
+}
+
+.body {
+    display: flex; 
+}
+.main {
+    background: #fff;
+    width: calc(100% - 375px);
+    box-shadow: 0 4px 30px rgb(0, 0, 0, .05);
+    position: relative;
+    z-index: 2;
+
+}
+
+.sidebar {
+    position: relative;
+    height: 100%;
+    width: 375px; 
+    padding: 40px;
+    z-index: 1;
+    background: #fbfbfb;
+}
+
+.sidebar-title {
+    font-size: 30px; 
+    color: #000;
+    margin-bottom: 15px 0;
+}
+
+.sidebar-title:first-child {
+    margin-top: 0; 
+}
+
+.sidebar a {
+    color: #9F9F9F;
+    text-decoration: none; 
+}
+
+/*Sur le ul on ne veut pas de marge*/
+.sidebar ul {
+        margin: 0; 
+        padding: 0;
+        list-style: none;
+}
+
+.sidebar li {
+    padding: 6px 0;
+}
+
+.sidebar li:first-child {
+    padding-top: 0; 
+}
+
+.sidebar li:last-child {
+    padding-bottom: 0; 
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar hr {
+    border:none;
+    background: #C4C4C4;
+    height: 1px;
+    margin: 50px 0; 
+}
+
+.container {
+    margin: 0 auto; 
+    max-width: 940px;
+}
+.article {
+    position: relative;
+    margin: 50px auto; 
+    padding-left: 333px;
+    min-height: 203px;
+   
+}
+
+.article a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.article a:hover {
+    text-decoration: underline; 
+}
+
+.article-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 308px; 
+    margin-right: 25px;
+}
+
+.article-img img {
+    width: 100%; 
+    height: auto;
+}
+
+.article-date {
+    font-weight: 300px; 
+    color: rgba(0, 0, 0, .6); 
+    margin-bottom: 5px; 
+
+}
+
+.article-title {
+    font-size: 2.25rem; 
+    line-height: 1.1;
+    font-family: "Cardo", serif; 
+    margin: 0 0 15px 0;
+}
+
+
+.footer {
+    clear: both;
+}
