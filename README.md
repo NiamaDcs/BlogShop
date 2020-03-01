@@ -7,3 +7,5 @@ BlogShop
 -Modifié readme depuis github
 
 -et maintenant en local
+
+-Et c'est cool
