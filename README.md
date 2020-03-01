@@ -5,3 +5,5 @@ BlogShop
 -demo git qui se passe très bien.
 
 -Modifié readme depuis github
+
+-et maintenant en local
