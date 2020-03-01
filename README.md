@@ -1,3 +1,5 @@
 BlogShop
-demo git pour mieux comprendre 
-demo git qui se passe très bien
+===============
+-demo git pour mieux comprendre. 
+-demo git qui se passe très bien.
+-Modifié readme depuis github
